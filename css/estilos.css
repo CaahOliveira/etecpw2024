@@ -1,0 +1,93 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    background-color: #585550;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Topo da página */
+.topo {
+    background-color: #C5C2BB;
+    padding: 20px;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+/* Imagem do topo */
+.topo img{
+    width: 100%;
+}
+
+/* Navegação */
+#navegacao {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navegacao li {
+    margin: 0 10px;
+}
+
+/* Conteúdo principal */
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#primario, #secundario, #lateral {
+    width: 33.33%;
+    padding: 20px;
+}
+
+/* Caixas */
+.caixa {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #C5C2BB;
+}
+
+/* Destaques */
+.destaque {
+    background-color: #C5C2BB;
+}
+
+/* Listas */
+#lista-pessoas, #Lista-personagens {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-pessoas li, #Lista-personagens li {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+#container-rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsividade básica (ajustar conforme necessário) */
+@media (max-width: 768px) {
+    #conteudo {
+        flex-direction: column;
+    }
+
+    #primario, #secundario, #lateral {
+        width: 100%;
+    }
+}

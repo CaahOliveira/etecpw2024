@@ -1,0 +1,65 @@
+/* produtos.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o topo */
+.topo img {
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-top: -100px; /* Ajuste para posicionar sobre a imagem */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para os produtos */
+.LinhaUm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.BlocoUm, .blocomedio {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.BlocoUm img, .blocomedio img {
+    max-width: 100%;
+}
+
+/* Estilos para o rodapé */
+#container-rodape {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}

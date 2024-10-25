@@ -1,0 +1,78 @@
+/* produtos.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para o topo */
+.topo img {
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin-top: -100px; /* Ajuste para posicionar sobre a imagem */
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Navegação */
+/* (Estilos de navegação já definidos no CSS anterior) */
+
+/* Conteúdo principal */
+main {
+  padding: 20px;
+}
+
+.QuemSomos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagem img {
+  width: 300%; /* Ajustar a largura da imagem conforme necessário */
+}
+
+.texto {
+  width: 40%;
+}
+
+.texto h2 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* Rodapé */
+/* (Estilos de rodapé já definidos no CSS anterior) */
